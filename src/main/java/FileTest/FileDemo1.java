@@ -2,6 +2,8 @@ package FileTest;
 
 import java.io.File;
 
+/*作业要求：遍历当前目录下所有文件，包括子目录*/
+
 public class FileDemo1 {
     public static void main(String[] args) {
         String inputPath="E:\\test";

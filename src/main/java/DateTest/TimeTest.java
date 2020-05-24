@@ -3,9 +3,12 @@ package DateTest;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-
+/*作业要求：介绍java8中的日期的使用
+*
+* 这里介绍了java time的一些常用的方法。*/
 public class TimeTest {
     public static void main(String[] args) {
+
         //LocalDate用于表示当天的日期，这里只有日期没有时间
         LocalDate today=LocalDate.now();
         System.out.println("今天的日期是："+today);

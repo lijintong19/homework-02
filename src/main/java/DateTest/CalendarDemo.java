@@ -2,9 +2,10 @@ package DateTest;
 
 
 import java.util.Calendar;
-
+//这一部分主要列出了日历类的常用方法
 public class CalendarDemo {
     public static void main(String[] args) {
+
         //使用默认时区和区域设置获取日历
         Calendar c=Calendar.getInstance();
 

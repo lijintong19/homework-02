@@ -3,7 +3,10 @@ package DateTest;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-
+/*作业要求：写一个工具类，传入一个日期能够查看年份，月份，季度。
+* 日期，星期数，是365天中的那一天，用静态方法写
+*
+* 这里是一个工具类，测试代码在test文件夹中*/
 public class DateUtils {
     //指定日期的转换格式
    private static final String YYYYMMDD="yyyy-MM-dd";

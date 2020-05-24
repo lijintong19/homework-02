@@ -2,6 +2,8 @@ package FileTest;
 
 import java.io.*;
 
+/*作业要求：文件的读取和写入，文本文件逐行读取逐行写入，数据量要超过10万行数据*/
+
 public class FileWriterDemo {
 
     //逐行读取的方法
@@ -33,7 +35,7 @@ public class FileWriterDemo {
     public static void main(String[] args) {
         String filPath="D:\\FileTest.txt";
         //写入数据
-        //writeFile(filPath);
+        writeFile(filPath);
         //读取数据
         try {
             readFile(filPath);
